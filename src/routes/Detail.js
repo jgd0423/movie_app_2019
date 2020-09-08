@@ -24,7 +24,7 @@ class Detail extends React.Component {
               {location.state.title}({location.state.year})
             </h1>
             <h4 className="detail__genre">
-              장르:{location.state.genres.join("/")}
+              Genres : {location.state.genres.join("/")}
             </h4>
             <p className="detail__summary">{location.state.summary}</p>
           </div>
